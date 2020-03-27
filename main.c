@@ -13,7 +13,7 @@
 #define LEFTROTATE(x, c) (((x) << (c)) | ((x) >> (32 - (c))))
 
 // These vars will contain the hash
-
+// message inutile
 
 void md5(uint8_t *initial_msg, size_t initial_len,char * md5str) {
 
